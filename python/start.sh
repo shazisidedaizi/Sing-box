@@ -1,20 +1,20 @@
 
-export UUID=${UUID:-'fdeeda45-0a8e-4570-bcc6-d68c995f5830'} # 如开启哪吒v1,不同的平台需要改一下，否则会覆盖
-export NEZHA_SERVER=${NEZHA_SERVER:-''}       # v1哪吒填写形式：nezha.abc.com:8008,v0哪吒填写形式：nezha.abc.com
+export UUID=${UUID:-'8087d316-c808-4513-ac81-1997461caa49'} # 如开启哪吒v1,不同的平台需要改一下，否则会覆盖
+export NEZHA_SERVER=${NEZHA_SERVER:-'nz.shazisidedaizi.dpdns.org:443'}       # v1哪吒填写形式：nezha.abc.com:8008,v0哪吒填写形式：nezha.abc.com
 export NEZHA_PORT=${NEZHA_PORT:-''}           # v1哪吒不要填写这个,v0哪吒agent端口为{443,8443,2053,2083,2087,2096}其中之一时自动开启tls
-export NEZHA_KEY=${NEZHA_KEY:-''}             # 哪吒v0-agent密钥或v1的NZ_CLIENT_SECRET
-export ARGO_DOMAIN=${ARGO_DOMAIN:-''}         # 固定隧道域名,留空即启用临时隧道
-export ARGO_AUTH=${ARGO_AUTH:-''}             # 固定隧道token或json,留空即启用临时隧道
+export NEZHA_KEY=${NEZHA_KEY:-'Soe1KSGiQ9kJO7kSbrhKRmGF0JoSDnPU'}             # 哪吒v0-agent密钥或v1的NZ_CLIENT_SECRET
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'wf.shazisidedaizi1.dpdns.org'}         # 固定隧道域名,留空即启用临时隧道
+export ARGO_AUTH=${ARGO_AUTH:-'eyJhIjoiNTliOGU4NTU2ZDI1N2Y5YmZlYTQwOTFmMTE4ZmM4OTgiLCJ0IjoiYWY5OTMwZjMtOWFmNS00YmFkLWIyMzctYWUwOGI0NGE4YzA2IiwicyI6Ik1XWmlNR05rTkRjdFpXSmtNaTAwWW1Ka0xUZzRNVGN0T0RZMll6ZzRPV000WkRWaiJ9'}             # 固定隧道token或json,留空即启用临时隧道
 export CFIP=${CFIP:-'cf.877774.xyz'}          # argo节点优选域名或优选ip
 export CFPORT=${CFPORT:-'443'}                # argo节点端口 
-export NAME=${NAME:-''}                       # 节点名称  
+export NAME=${NAME:-'wf'}                       # 节点名称  
 export FILE_PATH=${FILE_PATH:-'./.cahce'}     # 节点sub.txt保存路径  
 export ARGO_PORT=${ARGO_PORT:-'8001'}         # argo端口 使用固定隧道token,cloudflare后台设置的端口需和这里对应
 export TUIC_PORT=${TUIC_PORT:-''}             # Tuic 端口，支持多端口玩具可填写，否则不动
 export HY2_PORT=${HY2_PORT:-''}               # Hy2 端口，支持多端口玩具可填写，否则不动
 export REALITY_PORT=${REALITY_PORT:-''}       # reality 端口,支持多端口玩具可填写，否则不动   
-export CHAT_ID=${CHAT_ID:-''}                 # TG chat_id，可在https://t.me/laowang_serv00_bot 获取
-export BOT_TOKEN=${BOT_TOKEN:-''}             # TG bot_token, 使用自己的bot需要填写,使用上方的bot不用填写,不会给别人发送
+export CHAT_ID=${CHAT_ID:-'5317768042'}                 # TG chat_id，可在https://t.me/laowang_serv00_bot 获取
+export BOT_TOKEN=${BOT_TOKEN:-'8468313991:AAEqLOJcO_53FGrhruAjE0uSbdKXEOH5rGc'}             # TG bot_token, 使用自己的bot需要填写,使用上方的bot不用填写,不会给别人发送
 export UPLOAD_URL=${UPLOAD_URL:-''}  # 订阅自动上传地址,没有可不填,需要填部署Merge-sub项目后的首页地址,例如：https://merge.zabc.net
 export DISABLE_ARGO=${DISABLE_ARGO:-'false'}  # 是否禁用argo, true为禁用,false为不禁用
 
